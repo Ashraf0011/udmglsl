@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px;
+    z-index: 3;
+}
+
+#webgl {
+    position: absolute;
+    z-index: -1;
+}
+
+h1 {
+    position: absolute;
+    background-color: rgba(23, 0, 34, 0.5);
+    box-sizing: border-box;
+    top: 30px;
+    left: 45%;
+    width: 400px;
+    height: 300px;
+}
